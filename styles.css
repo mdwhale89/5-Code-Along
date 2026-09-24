@@ -1,0 +1,97 @@
+/* ===== Color Palette 
+
+Copper:#B35A3C
+Charcoal:#2F2F2F
+Light Background:#F7F4EF
+Card Background:#FFFFFF
+Soft Gold:#D9A441
+Border:#E5E5E5
+
+===== */
+
+/* ===== GLOBAL (Base) Styles ===== */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #F7F4EF;
+    color: #2F2F2F;
+}
+
+header {
+    background-color: #B35A3C;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+header img {
+    margin-top: 0.5rem;
+}
+header p {
+    font-style:italic;
+}
+nav {
+    background-color: #2F2F2F;
+    padding:.5rem;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem;
+    display: inline-block;
+    text-transform:uppercase;
+}
+
+nav a:hover {
+    background-color: #B35A3C;
+}
+
+main {
+    padding: 1rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+.card-row {
+    display: flex;
+    gap: 1rem;
+}
+
+.card-row section {
+    background-color: white;
+    border: 1px solid #E5E5E5;
+    padding: 1rem;
+    width: 30%;
+}
+
+img {
+    display: block;
+    margin-top: 0.5rem;
+    max-width: 100%;
+}
+
+aside {
+    background-color: #D9A441;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+footer {
+    background-color: #2F2F2F;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
